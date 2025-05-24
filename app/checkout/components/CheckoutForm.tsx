@@ -50,7 +50,7 @@ export default function CheckoutForm({ onOrderComplete }: CheckoutFormProps) {
     },
   });
 
-  const handleSubmit = (values: CheckoutFormValues) => {
+  const handleSubmit = () => {
     setIsSubmitting(true);
 
     setTimeout(() => {
