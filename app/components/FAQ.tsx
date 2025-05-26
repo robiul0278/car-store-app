@@ -64,7 +64,7 @@ export default function FAQ() {
         <section className="max-w-7xl mx-auto py-6 w-full md:py-16 lg:py-16">
             <div className="flex items-center justify-center gap-4 mb-10">
                 <hr className="flex-grow border border-t border-red-700" />
-                <h2 className="text-2xl md:text-3xl font-bold text-center whitespace-nowrap">
+                <h2 className="text-xl md:text-3xl font-bold text-center whitespace-nowrap">
                     Frequently Asked Questions
                 </h2>
                 <hr className="flex-grow border border-t border-cyan-700" />

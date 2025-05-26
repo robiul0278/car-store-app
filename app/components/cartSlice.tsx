@@ -146,9 +146,8 @@ export default function CartSlide({ isOpen, onClose }: CartSlideProps) {
                   <span>${total.toFixed(2)}</span>
                 </div>
               </div>
-              
               <Link href="/checkout" onClick={onClose}>
-                <Button className="w-full mt-6 gap-2">
+                <Button className="w-full my-6 gap-2">
                   Proceed to Checkout
                   <ArrowRight className="h-4 w-4" />
                 </Button>
